@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to top right, #d9d9d9 50%, #f6f6f6 50%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* utilities */
+.container {
+    height: 100%;
+    margin: 5rem;
+}
+
+img {
+    width: 100%
+}
+
+.title h2 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.btn {
+    text-decoration: none;
+    cursor: pointer;
+    color: #8338ec;
+    font-weight: 500;
+}
+
+
+/* boxes */
+.content-boxes {
+    margin: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+/* info message box */
+.info-msg-blog {
+    background: #fff;
+    width: 380px;
+    padding: 1.8rem 1.5rem;
+    border-top: 5px solid #8338ec;
+}
+
+.info-msg-blog .title,
+.card .title {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    color: #361b59;
+}
+
+.info-msg-blog .title i,
+.card .title i {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    color: #8338ec;
+}
+
+.info-msg-blog .author {
+    padding: 1rem 0;
+}
+
+.info-msg-blog .author .name,
+.card .author .name {
+    color: #361b59;
+    font-weight: 500;
+}
+
+.info-msg-blog .author span,
+.card .author span {
+    color: #777;
+    font-size: 0.85rem;
+}
+
+.blog-text {
+    line-height: 1.8;
+    padding: 0.2rem 0 1.2rem;
+}
+
+/* blog cards */
+.card>div {
+    background: #fff;
+    margin: 0.5rem 0;
+    padding: 1rem 0.8rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+}
